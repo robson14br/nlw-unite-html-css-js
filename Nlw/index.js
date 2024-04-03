@@ -68,6 +68,7 @@ let participantes = [
     let dataCheckIn = dayjs(Date.now())
     .to(participante.dataCheckIn)
     
+    // condicional
     if(participante.dataCheckIn == null) {
       dataCheckIn = `
         <button
